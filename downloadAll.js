@@ -21,7 +21,7 @@
 
 // CHANGE THIS VAR TO DOWNLOAD ANIMATIONS FOR A DIFFERENT CHARACTER
 // const character = 'aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee'
-const character = 'ef7eb018-7cf3-4ae1-99ac-bab1c2c5d419'
+const character = '9b9de864-afb8-4a1d-9d98-4f1da1d21164'
 
 
 //=================================================================================================
@@ -41,7 +41,7 @@ const getAnimationList = (page) => {
         }
     };
 
-    const listUrl = `https://www.mixamo.com/api/v1/products?page=${page}&limit=96&order=&type=Motion%2CMotionPack&query=`;
+    const listUrl = `https://www.mixamo.com/api/v1/products?page=${page}&limit=96&order=&type=Motion%2CMotionPack&query=pose`;
     return fetch(listUrl, init).then((res) => res.json()).then((json) => json).catch(() => Promise.reject('Failed to download animation list'))
 }
 
@@ -133,7 +133,7 @@ const exportAnimation = (character_id, gmsHashArray, product_name) => {
     const exportBody = {
         character_id,
         gms_hash: gmsHashArray, //[{ "model-id": 103120902, "mirror": false, "trim": [0, 100], "overdrive": 0, "params": "0,0,0", "arm-space": 0, "inplace": false }],
-        preferences: { format: "fbx7", skin: "false", fps: "30", reducekf: "0" }, // To download collada use format: "dae_mixamo"
+        preferences: { format: "fbx7", skin: "true", fps: "30", reducekf: "0" }, // To download collada use format: "dae_mixamo"
         product_name,
         type: "Motion"
     };
