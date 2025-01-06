@@ -1,27 +1,4 @@
-// Mixamo Animation downloadeer
-// The following script make use of mixamo2 API to download all anims for a single character that you choose.
-// The animations are saved with descriptive long names instead of the short ones used by default by mixamo UI.
-//
-//  This script has been written by gnuton@gnuton.org and the author is not responsible of its usage
-//
-//  How to use this script
-//  1. Browse mixamo.com
-//  2. Log in
-//  3. Open JS console (F12 on chrome)
-//  4. Download an animation and get the character ID from the Network tab
-//  5. Then past the character id in the "character" variable at beginning of this script
-//  6. Copy and paste the full script in the mixamo.com javascript console
-//  7. The script will open a new blank page.. you  will start to see animations downloading
-//  8. keep the blank page opened and keep on pressing "Allow multiple downlaods" 
-
-// NOTE. This doesn't really work for me, but it was supposed too
-// Chrome will ask you all the time to allow multiple downloads
-// You can disable this as follow:
-// chrome://settings/ > Advanced > Content > Automatic downloads > uncheck "Do not allow any site to download multiple file automatically"
-
-// CHANGE THIS VAR TO DOWNLOAD ANIMATIONS FOR A DIFFERENT CHARACTER
-// const character = 'aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee'
-const character = '9b9de864-afb8-4a1d-9d98-4f1da1d21164'
+const character = '353d2bdd-d15a-4d39-8a12-4d92911f537e'
 
 
 //=================================================================================================
@@ -64,21 +41,18 @@ const getProduct = (animId, character) => {
 
 const downloadAnimation = (animId, character, product_name) => {
     console.log('downloadAnimation animId=', animId, ' character=', character, ' prod name=', product_name);
-    // skip packs
-    if (product_name.indexOf(',') > -1) {
-        console.log('Skipping pack ', product_name);
-        return Promise.resolve('Skip pack!');
-    } else {
-        return getProduct(animId, character)
-                .then((json) => json.details.gms_hash)
-                .then((gms_hash) => {
-                    const pvals = gms_hash.params.map((param) => param[1]).join(',')
-                    const _gms_hash = Object.assign({}, gms_hash, { params: pvals }) // Anim is baked with default param values
-                    return exportAnimation(character, [_gms_hash], product_name)
-                })
-                .then((json) => monitorAnimation(character))
-                .catch(() => Promise.reject("Unable to download animation " + animId))
-    }
+    return getProduct(animId, character)
+            .then((json) => ({
+                gms_hash: json.details.gms_hash,
+                description: json.description
+            }))
+            .then(({gms_hash, description}) => {
+                const pvals = gms_hash.params.map((param) => param[1]).join(',')
+                const _gms_hash = Object.assign({}, gms_hash, { params: pvals })
+                return exportAnimation(character, [_gms_hash], description)
+            })
+            .then((json) => monitorAnimation(character))
+            .catch(() => Promise.reject("Unable to download animation " + animId))
 }
 
 const downloadAnimLoop = (o) => {
@@ -92,9 +66,13 @@ const downloadAnimLoop = (o) => {
     o.anims = tail;
 
     return downloadAnimation(head.id, o.character, head.description)
+        .then(() => {
+            // Add delay of 30 seconds before downloading next animation
+            return new Promise(resolve => setTimeout(() => resolve(), 2000));
+        })
         .then(() => downloadAnimLoop(o)) //loop
         .catch(() => {
-            console.log("Recovering from animation failed to downlaod");
+            console.log("Recovering from animation failed to download");
             return downloadAnimLoop(o) // keep on looping 
         })
 }
