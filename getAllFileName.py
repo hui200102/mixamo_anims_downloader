@@ -42,12 +42,12 @@ def get_all_files(model_directory, cover_directory=None):
 
 if __name__ == "__main__":
     # 示例：获取当前目录下的所有文件
-    model_dir = "./Anime_Female_A"
-    cover_dir = "./Anime_Female_A_cover"  # 封面文件夹路径
+    model_dir = "./Base_Female_A"
+    cover_dir = "./thumbnail/Base_Female_A"  # 封面文件夹路径
     files = get_all_files(model_dir, cover_dir)
     
     # 将文件列表保存为JSON文件
     import json
-    with open('files.json', 'w', encoding='utf-8') as f:
+    with open('Base_Female_A.json', 'w', encoding='utf-8') as f:
         json.dump(files, f, indent=4, ensure_ascii=False)
     print("JSON文件已生成：files.json")

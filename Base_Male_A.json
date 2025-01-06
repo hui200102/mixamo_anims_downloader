@@ -1,0 +1,477 @@
+[
+    {
+        "label": "Arms Down (1)",
+        "path": "Base_Male_A/Arms%20Down%20%281%29.fbx",
+        "thumbnail": "Base_Male_A/Arms%2520Down%2520%25281%2529.png"
+    },
+    {
+        "label": "Arms Down",
+        "path": "Base_Male_A/Arms%20Down.fbx",
+        "thumbnail": "Base_Male_A/Arms%2520Down.png"
+    },
+    {
+        "label": "Arms Holding Left Knee, Reclining",
+        "path": "Base_Male_A/Arms%20Holding%20Left%20Knee%2C%20Reclining.fbx",
+        "thumbnail": "Base_Male_A/Arms%2520Holding%2520Left%2520Knee%252C%2520Reclining.png"
+    },
+    {
+        "label": "Arms Resting On Knees",
+        "path": "Base_Male_A/Arms%20Resting%20On%20Knees.fbx",
+        "thumbnail": "Base_Male_A/Arms%2520Resting%2520On%2520Knees.png"
+    },
+    {
+        "label": "Arms Slightly Spread",
+        "path": "Base_Male_A/Arms%20Slightly%20Spread.fbx",
+        "thumbnail": "Base_Male_A/Arms%2520Slightly%2520Spread.png"
+    },
+    {
+        "label": "Arms Supporting",
+        "path": "Base_Male_A/Arms%20Supporting.fbx",
+        "thumbnail": "Base_Male_A/Arms%2520Supporting.png"
+    },
+    {
+        "label": "Attacking (1)",
+        "path": "Base_Male_A/Attacking%20%281%29.fbx",
+        "thumbnail": "Base_Male_A/Attacking%2520%25281%2529.png"
+    },
+    {
+        "label": "Attacking (2)",
+        "path": "Base_Male_A/Attacking%20%282%29.fbx",
+        "thumbnail": "Base_Male_A/Attacking%2520%25282%2529.png"
+    },
+    {
+        "label": "Attacking",
+        "path": "Base_Male_A/Attacking.fbx",
+        "thumbnail": "Base_Male_A/Attacking.png"
+    },
+    {
+        "label": "Back Arched, Arms Supporting",
+        "path": "Base_Male_A/Back%20Arched%2C%20Arms%20Supporting.fbx",
+        "thumbnail": "Base_Male_A/Back%2520Arched%252C%2520Arms%2520Supporting.png"
+    },
+    {
+        "label": "Base_Male_A",
+        "path": "Base_Male_A/Base_Male_A.fbx",
+        "thumbnail": "Base_Male_A/Base_Male_A.png"
+    },
+    {
+        "label": "Crawling Forward Reaching With Left Hand",
+        "path": "Base_Male_A/Crawling%20Forward%20Reaching%20With%20Left%20Hand.fbx",
+        "thumbnail": "Base_Male_A/Crawling%2520Forward%2520Reaching%2520With%2520Left%2520Hand.png"
+    },
+    {
+        "label": "Elbows On Legs Leaning Left",
+        "path": "Base_Male_A/Elbows%20On%20Legs%20Leaning%20Left.fbx",
+        "thumbnail": "Base_Male_A/Elbows%2520On%2520Legs%2520Leaning%2520Left.png"
+    },
+    {
+        "label": "Exaggerated Punch With Right Hand",
+        "path": "Base_Male_A/Exaggerated%20Punch%20With%20Right%20Hand.fbx",
+        "thumbnail": "Base_Male_A/Exaggerated%2520Punch%2520With%2520Right%2520Hand.png"
+    },
+    {
+        "label": "Examine Backwards (1)",
+        "path": "Base_Male_A/Examine%20Backwards%20%281%29.fbx",
+        "thumbnail": "Base_Male_A/Examine%2520Backwards%2520%25281%2529.png"
+    },
+    {
+        "label": "Examine Backwards",
+        "path": "Base_Male_A/Examine%20Backwards.fbx",
+        "thumbnail": "Base_Male_A/Examine%2520Backwards.png"
+    },
+    {
+        "label": "Examine Forwards",
+        "path": "Base_Male_A/Examine%20Forwards.fbx",
+        "thumbnail": "Base_Male_A/Examine%2520Forwards.png"
+    },
+    {
+        "label": "Floating, Back Arched",
+        "path": "Base_Male_A/Floating%2C%20Back%20Arched.fbx",
+        "thumbnail": "Base_Male_A/Floating%252C%2520Back%2520Arched.png"
+    },
+    {
+        "label": "Floating, Bent Forwards",
+        "path": "Base_Male_A/Floating%2C%20Bent%20Forwards.fbx",
+        "thumbnail": "Base_Male_A/Floating%252C%2520Bent%2520Forwards.png"
+    },
+    {
+        "label": "Floating, Left Leg Bent, Hands Spread",
+        "path": "Base_Male_A/Floating%2C%20Left%20Leg%20Bent%2C%20Hands%20Spread.fbx",
+        "thumbnail": "Base_Male_A/Floating%252C%2520Left%2520Leg%2520Bent%252C%2520Hands%2520Spread.png"
+    },
+    {
+        "label": "Floating, Legs Raised, Arms Extended Upwards",
+        "path": "Base_Male_A/Floating%2C%20Legs%20Raised%2C%20Arms%20Extended%20Upwards.fbx",
+        "thumbnail": "Base_Male_A/Floating%252C%2520Legs%2520Raised%252C%2520Arms%2520Extended%2520Upwards.png"
+    },
+    {
+        "label": "Hands On Hips Looking Over Shoulder",
+        "path": "Base_Male_A/Hands%20On%20Hips%20Looking%20Over%20Shoulder.fbx",
+        "thumbnail": "Base_Male_A/Hands%2520On%2520Hips%2520Looking%2520Over%2520Shoulder.png"
+    },
+    {
+        "label": "Holding Bow",
+        "path": "Base_Male_A/Holding%20Bow.fbx",
+        "thumbnail": "Base_Male_A/Holding%2520Bow.png"
+    },
+    {
+        "label": "Jab With Right Hand",
+        "path": "Base_Male_A/Jab%20With%20Right%20Hand.fbx",
+        "thumbnail": "Base_Male_A/Jab%2520With%2520Right%2520Hand.png"
+    },
+    {
+        "label": "Knees Up, Holding Object",
+        "path": "Base_Male_A/Knees%20Up%2C%20Holding%20Object.fbx",
+        "thumbnail": "Base_Male_A/Knees%2520Up%252C%2520Holding%2520Object.png"
+    },
+    {
+        "label": "Leaning Against Object, Looking Left",
+        "path": "Base_Male_A/Leaning%20Against%20Object%2C%20Looking%20Left.fbx",
+        "thumbnail": "Base_Male_A/Leaning%2520Against%2520Object%252C%2520Looking%2520Left.png"
+    },
+    {
+        "label": "Leaning Backwards, Arms Supporting",
+        "path": "Base_Male_A/Leaning%20Backwards%2C%20Arms%20Supporting.fbx",
+        "thumbnail": "Base_Male_A/Leaning%2520Backwards%252C%2520Arms%2520Supporting.png"
+    },
+    {
+        "label": "Leaning Forward, Elbows On Knees",
+        "path": "Base_Male_A/Leaning%20Forward%2C%20Elbows%20On%20Knees.fbx",
+        "thumbnail": "Base_Male_A/Leaning%2520Forward%252C%2520Elbows%2520On%2520Knees.png"
+    },
+    {
+        "label": "Leaning Forward, Right Hand Supporting",
+        "path": "Base_Male_A/Leaning%20Forward%2C%20Right%20Hand%20Supporting.fbx",
+        "thumbnail": "Base_Male_A/Leaning%2520Forward%252C%2520Right%2520Hand%2520Supporting.png"
+    },
+    {
+        "label": "Leaning Forwards Hands In Front",
+        "path": "Base_Male_A/Leaning%20Forwards%20Hands%20In%20Front.fbx",
+        "thumbnail": "Base_Male_A/Leaning%2520Forwards%2520Hands%2520In%2520Front.png"
+    },
+    {
+        "label": "Leaping Forward, Arms Extended Backwards",
+        "path": "Base_Male_A/Leaping%20Forward%2C%20Arms%20Extended%20Backwards.fbx",
+        "thumbnail": "Base_Male_A/Leaping%2520Forward%252C%2520Arms%2520Extended%2520Backwards.png"
+    },
+    {
+        "label": "Left Elbow Resting On Object",
+        "path": "Base_Male_A/Left%20Elbow%20Resting%20On%20Object.fbx",
+        "thumbnail": "Base_Male_A/Left%2520Elbow%2520Resting%2520On%2520Object.png"
+    },
+    {
+        "label": "Left Hand On Hip",
+        "path": "Base_Male_A/Left%20Hand%20On%20Hip.fbx",
+        "thumbnail": "Base_Male_A/Left%2520Hand%2520On%2520Hip.png"
+    },
+    {
+        "label": "Left Leg On Object, Left Hand On Knee",
+        "path": "Base_Male_A/Left%20Leg%20On%20Object%2C%20Left%20Hand%20On%20Knee.fbx",
+        "thumbnail": "Base_Male_A/Left%2520Leg%2520On%2520Object%252C%2520Left%2520Hand%2520On%2520Knee.png"
+    },
+    {
+        "label": "Legs Crossed, Arms Raised",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Arms%20Raised.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Arms%2520Raised.png"
+    },
+    {
+        "label": "Legs Crossed, Arms Supporting (1)",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Arms%20Supporting%20%281%29.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Arms%2520Supporting%2520%25281%2529.png"
+    },
+    {
+        "label": "Legs Crossed, Arms Supporting",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Arms%20Supporting.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Arms%2520Supporting.png"
+    },
+    {
+        "label": "Legs Crossed, Hands Behind Head",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Hands%20Behind%20Head.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Hands%2520Behind%2520Head.png"
+    },
+    {
+        "label": "Legs Crossed, Holding Object",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Holding%20Object.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Holding%2520Object.png"
+    },
+    {
+        "label": "Legs Crossed, Leaning On Object",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Leaning%20On%20Object.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Leaning%2520On%2520Object.png"
+    },
+    {
+        "label": "Legs Crossed, Left Arm On Object, Right Hand On Hip",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Left%20Arm%20On%20Object%2C%20Right%20Hand%20On%20Hip.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Left%2520Arm%2520On%2520Object%252C%2520Right%2520Hand%2520On%2520Hip.png"
+    },
+    {
+        "label": "Legs Crossed, Left Hand On Hip (1)",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Left%20Hand%20On%20Hip%20%281%29.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Left%2520Hand%2520On%2520Hip%2520%25281%2529.png"
+    },
+    {
+        "label": "Legs Crossed, Left Hand On Hip",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Left%20Hand%20On%20Hip.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Left%2520Hand%2520On%2520Hip.png"
+    },
+    {
+        "label": "Legs Crossed, Reclining (1)",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Reclining%20%281%29.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Reclining%2520%25281%2529.png"
+    },
+    {
+        "label": "Legs Crossed, Reclining",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Reclining.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Reclining.png"
+    },
+    {
+        "label": "Legs Crossed, Right Arm Over Knee",
+        "path": "Base_Male_A/Legs%20Crossed%2C%20Right%20Arm%20Over%20Knee.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed%252C%2520Right%2520Arm%2520Over%2520Knee.png"
+    },
+    {
+        "label": "Legs Crossed",
+        "path": "Base_Male_A/Legs%20Crossed.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Crossed.png"
+    },
+    {
+        "label": "Legs Spread Leaning Left",
+        "path": "Base_Male_A/Legs%20Spread%20Leaning%20Left.fbx",
+        "thumbnail": "Base_Male_A/Legs%2520Spread%2520Leaning%2520Left.png"
+    },
+    {
+        "label": "Looking Forward (1)",
+        "path": "Base_Male_A/Looking%20Forward%20%281%29.fbx",
+        "thumbnail": "Base_Male_A/Looking%2520Forward%2520%25281%2529.png"
+    },
+    {
+        "label": "Looking Forward (2)",
+        "path": "Base_Male_A/Looking%20Forward%20%282%29.fbx",
+        "thumbnail": "Base_Male_A/Looking%2520Forward%2520%25282%2529.png"
+    },
+    {
+        "label": "Looking Forward",
+        "path": "Base_Male_A/Looking%20Forward.fbx",
+        "thumbnail": "Base_Male_A/Looking%2520Forward.png"
+    },
+    {
+        "label": "On Left Leg, Right Hand On Hip, Left Arm Raised",
+        "path": "Base_Male_A/On%20Left%20Leg%2C%20Right%20Hand%20On%20Hip%2C%20Left%20Arm%20Raised.fbx",
+        "thumbnail": "Base_Male_A/On%2520Left%2520Leg%252C%2520Right%2520Hand%2520On%2520Hip%252C%2520Left%2520Arm%2520Raised.png"
+    },
+    {
+        "label": "On Left Side, Left Arm Supporting Head",
+        "path": "Base_Male_A/On%20Left%20Side%2C%20Left%20Arm%20Supporting%20Head.fbx",
+        "thumbnail": "Base_Male_A/On%2520Left%2520Side%252C%2520Left%2520Arm%2520Supporting%2520Head.png"
+    },
+    {
+        "label": "On Left Side, Left Arm Supporting",
+        "path": "Base_Male_A/On%20Left%20Side%2C%20Left%20Arm%20Supporting.fbx",
+        "thumbnail": "Base_Male_A/On%2520Left%2520Side%252C%2520Left%2520Arm%2520Supporting.png"
+    },
+    {
+        "label": "On Left Toes, Looking Left",
+        "path": "Base_Male_A/On%20Left%20Toes%2C%20Looking%20Left.fbx",
+        "thumbnail": "Base_Male_A/On%2520Left%2520Toes%252C%2520Looking%2520Left.png"
+    },
+    {
+        "label": "On Left Toes, Top Of Right Foot",
+        "path": "Base_Male_A/On%20Left%20Toes%2C%20Top%20Of%20Right%20Foot.fbx",
+        "thumbnail": "Base_Male_A/On%2520Left%2520Toes%252C%2520Top%2520Of%2520Right%2520Foot.png"
+    },
+    {
+        "label": "On Right Foot, Arms Extended Backwards",
+        "path": "Base_Male_A/On%20Right%20Foot%2C%20Arms%20Extended%20Backwards.fbx",
+        "thumbnail": "Base_Male_A/On%2520Right%2520Foot%252C%2520Arms%2520Extended%2520Backwards.png"
+    },
+    {
+        "label": "On Right Foot, Left Leg Raised",
+        "path": "Base_Male_A/On%20Right%20Foot%2C%20Left%20Leg%20Raised.fbx",
+        "thumbnail": "Base_Male_A/On%2520Right%2520Foot%252C%2520Left%2520Leg%2520Raised.png"
+    },
+    {
+        "label": "On Right Side, Right Arm Supporting",
+        "path": "Base_Male_A/On%20Right%20Side%2C%20Right%20Arm%20Supporting.fbx",
+        "thumbnail": "Base_Male_A/On%2520Right%2520Side%252C%2520Right%2520Arm%2520Supporting.png"
+    },
+    {
+        "label": "On Right Side, Right Hand Supporting Head (1)",
+        "path": "Base_Male_A/On%20Right%20Side%2C%20Right%20Hand%20Supporting%20Head%20%281%29.fbx",
+        "thumbnail": "Base_Male_A/On%2520Right%2520Side%252C%2520Right%2520Hand%2520Supporting%2520Head%2520%25281%2529.png"
+    },
+    {
+        "label": "On Right Side, Right Hand Supporting Head",
+        "path": "Base_Male_A/On%20Right%20Side%2C%20Right%20Hand%20Supporting%20Head.fbx",
+        "thumbnail": "Base_Male_A/On%2520Right%2520Side%252C%2520Right%2520Hand%2520Supporting%2520Head.png"
+    },
+    {
+        "label": "On Right Toe, Arms Raised",
+        "path": "Base_Male_A/On%20Right%20Toe%2C%20Arms%20Raised.fbx",
+        "thumbnail": "Base_Male_A/On%2520Right%2520Toe%252C%2520Arms%2520Raised.png"
+    },
+    {
+        "label": "On Right Toes, Left Leg Raised (1)",
+        "path": "Base_Male_A/On%20Right%20Toes%2C%20Left%20Leg%20Raised%20%281%29.fbx",
+        "thumbnail": "Base_Male_A/On%2520Right%2520Toes%252C%2520Left%2520Leg%2520Raised%2520%25281%2529.png"
+    },
+    {
+        "label": "On Right Toes, Left Leg Raised",
+        "path": "Base_Male_A/On%20Right%20Toes%2C%20Left%20Leg%20Raised.fbx",
+        "thumbnail": "Base_Male_A/On%2520Right%2520Toes%252C%2520Left%2520Leg%2520Raised.png"
+    },
+    {
+        "label": "On Stomach, Elbows Supporting",
+        "path": "Base_Male_A/On%20Stomach%2C%20Elbows%20Supporting.fbx",
+        "thumbnail": "Base_Male_A/On%2520Stomach%252C%2520Elbows%2520Supporting.png"
+    },
+    {
+        "label": "On Toes, Back Arched",
+        "path": "Base_Male_A/On%20Toes%2C%20Back%20Arched.fbx",
+        "thumbnail": "Base_Male_A/On%2520Toes%252C%2520Back%2520Arched.png"
+    },
+    {
+        "label": "Push Up",
+        "path": "Base_Male_A/Push%20Up.fbx",
+        "thumbnail": "Base_Male_A/Push%2520Up.png"
+    },
+    {
+        "label": "Pushing With Both Hands",
+        "path": "Base_Male_A/Pushing%20With%20Both%20Hands.fbx",
+        "thumbnail": "Base_Male_A/Pushing%2520With%2520Both%2520Hands.png"
+    },
+    {
+        "label": "Pushing With Left Side Of Body",
+        "path": "Base_Male_A/Pushing%20With%20Left%20Side%20Of%20Body.fbx",
+        "thumbnail": "Base_Male_A/Pushing%2520With%2520Left%2520Side%2520Of%2520Body.png"
+    },
+    {
+        "label": "Reaching Left Hand Towards Right Toes",
+        "path": "Base_Male_A/Reaching%20Left%20Hand%20Towards%20Right%20Toes.fbx",
+        "thumbnail": "Base_Male_A/Reaching%2520Left%2520Hand%2520Towards%2520Right%2520Toes.png"
+    },
+    {
+        "label": "Reclined Looking Downwards",
+        "path": "Base_Male_A/Reclined%20Looking%20Downwards.fbx",
+        "thumbnail": "Base_Male_A/Reclined%2520Looking%2520Downwards.png"
+    },
+    {
+        "label": "Reclined, Facepalm",
+        "path": "Base_Male_A/Reclined%2C%20Facepalm.fbx",
+        "thumbnail": "Base_Male_A/Reclined%252C%2520Facepalm.png"
+    },
+    {
+        "label": "Reclined, Hands Behind Head",
+        "path": "Base_Male_A/Reclined%2C%20Hands%20Behind%20Head.fbx",
+        "thumbnail": "Base_Male_A/Reclined%252C%2520Hands%2520Behind%2520Head.png"
+    },
+    {
+        "label": "Reclined, Left Leg Crossed, Hands Behind Head",
+        "path": "Base_Male_A/Reclined%2C%20Left%20Leg%20Crossed%2C%20Hands%20Behind%20Head.fbx",
+        "thumbnail": "Base_Male_A/Reclined%252C%2520Left%2520Leg%2520Crossed%252C%2520Hands%2520Behind%2520Head.png"
+    },
+    {
+        "label": "Reclined, Left Leg Crossed",
+        "path": "Base_Male_A/Reclined%2C%20Left%20Leg%20Crossed.fbx",
+        "thumbnail": "Base_Male_A/Reclined%252C%2520Left%2520Leg%2520Crossed.png"
+    },
+    {
+        "label": "Reclined, Right Leg Crossed, Hands Behind Head",
+        "path": "Base_Male_A/Reclined%2C%20Right%20Leg%20Crossed%2C%20Hands%20Behind%20Head.fbx",
+        "thumbnail": "Base_Male_A/Reclined%252C%2520Right%2520Leg%2520Crossed%252C%2520Hands%2520Behind%2520Head.png"
+    },
+    {
+        "label": "Right Arm Raised, Left Hand On Hip",
+        "path": "Base_Male_A/Right%20Arm%20Raised%2C%20Left%20Hand%20On%20Hip.fbx",
+        "thumbnail": "Base_Male_A/Right%2520Arm%2520Raised%252C%2520Left%2520Hand%2520On%2520Hip.png"
+    },
+    {
+        "label": "Right Arm Supporting, Left Arm Raised",
+        "path": "Base_Male_A/Right%20Arm%20Supporting%2C%20Left%20Arm%20Raised.fbx",
+        "thumbnail": "Base_Male_A/Right%2520Arm%2520Supporting%252C%2520Left%2520Arm%2520Raised.png"
+    },
+    {
+        "label": "Right Foot Raised",
+        "path": "Base_Male_A/Right%20Foot%20Raised.fbx",
+        "thumbnail": "Base_Male_A/Right%2520Foot%2520Raised.png"
+    },
+    {
+        "label": "Right Hand Behind Head",
+        "path": "Base_Male_A/Right%20Hand%20Behind%20Head.fbx",
+        "thumbnail": "Base_Male_A/Right%2520Hand%2520Behind%2520Head.png"
+    },
+    {
+        "label": "Right Hand On Hip, Left Arm Raised",
+        "path": "Base_Male_A/Right%20Hand%20On%20Hip%2C%20Left%20Arm%20Raised.fbx",
+        "thumbnail": "Base_Male_A/Right%2520Hand%2520On%2520Hip%252C%2520Left%2520Arm%2520Raised.png"
+    },
+    {
+        "label": "Right Hand On Hip",
+        "path": "Base_Male_A/Right%20Hand%20On%20Hip.fbx",
+        "thumbnail": "Base_Male_A/Right%2520Hand%2520On%2520Hip.png"
+    },
+    {
+        "label": "Right Leg Forward, Arms Supporting",
+        "path": "Base_Male_A/Right%20Leg%20Forward%2C%20Arms%20Supporting.fbx",
+        "thumbnail": "Base_Male_A/Right%2520Leg%2520Forward%252C%2520Arms%2520Supporting.png"
+    },
+    {
+        "label": "Right Leg On Object, Hands Crossed",
+        "path": "Base_Male_A/Right%20Leg%20On%20Object%2C%20Hands%20Crossed.fbx",
+        "thumbnail": "Base_Male_A/Right%2520Leg%2520On%2520Object%252C%2520Hands%2520Crossed.png"
+    },
+    {
+        "label": "Right Leg On Object, Left Hand On Hip, Right Hand On Chin",
+        "path": "Base_Male_A/Right%20Leg%20On%20Object%2C%20Left%20Hand%20On%20Hip%2C%20Right%20Hand%20On%20Chin.fbx",
+        "thumbnail": "Base_Male_A/Right%2520Leg%2520On%2520Object%252C%2520Left%2520Hand%2520On%2520Hip%252C%2520Right%2520Hand%2520On%2520Chin.png"
+    },
+    {
+        "label": "Running Forward (1)",
+        "path": "Base_Male_A/Running%20Forward%20%281%29.fbx",
+        "thumbnail": "Base_Male_A/Running%2520Forward%2520%25281%2529.png"
+    },
+    {
+        "label": "Running Forward",
+        "path": "Base_Male_A/Running%20Forward.fbx",
+        "thumbnail": "Base_Male_A/Running%2520Forward.png"
+    },
+    {
+        "label": "Sitting Backwards On Chair, Hands Grasping",
+        "path": "Base_Male_A/Sitting%20Backwards%20On%20Chair%2C%20Hands%20Grasping.fbx",
+        "thumbnail": "Base_Male_A/Sitting%2520Backwards%2520On%2520Chair%252C%2520Hands%2520Grasping.png"
+    },
+    {
+        "label": "Sitting Backwards On Chair, Hands Relaxed",
+        "path": "Base_Male_A/Sitting%20Backwards%20On%20Chair%2C%20Hands%20Relaxed.fbx",
+        "thumbnail": "Base_Male_A/Sitting%2520Backwards%2520On%2520Chair%252C%2520Hands%2520Relaxed.png"
+    },
+    {
+        "label": "Sprinting",
+        "path": "Base_Male_A/Sprinting.fbx",
+        "thumbnail": "Base_Male_A/Sprinting.png"
+    },
+    {
+        "label": "Standard T-Pose",
+        "path": "Base_Male_A/Standard%20T-Pose.fbx",
+        "thumbnail": "Base_Male_A/Standard%2520T-Pose.png"
+    },
+    {
+        "label": "Stepping Forward Looking Left",
+        "path": "Base_Male_A/Stepping%20Forward%20Looking%20Left.fbx",
+        "thumbnail": "Base_Male_A/Stepping%2520Forward%2520Looking%2520Left.png"
+    },
+    {
+        "label": "Walking Forward, Looking Right",
+        "path": "Base_Male_A/Walking%20Forward%2C%20Looking%20Right.fbx",
+        "thumbnail": "Base_Male_A/Walking%2520Forward%252C%2520Looking%2520Right.png"
+    },
+    {
+        "label": "Walking, Arms On Hips",
+        "path": "Base_Male_A/Walking%2C%20Arms%20On%20Hips.fbx",
+        "thumbnail": "Base_Male_A/Walking%252C%2520Arms%2520On%2520Hips.png"
+    },
+    {
+        "label": "Walking, Right Arm On Hip",
+        "path": "Base_Male_A/Walking%2C%20Right%20Arm%20On%20Hip.fbx",
+        "thumbnail": "Base_Male_A/Walking%252C%2520Right%2520Arm%2520On%2520Hip.png"
+    }
+]

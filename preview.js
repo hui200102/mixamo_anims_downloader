@@ -1,25 +1,45 @@
+// 创建全局渲染器管理器
+class RendererManager {
+    static instance = null;
+    
+    static getInstance() {
+        if (!RendererManager.instance) {
+            const renderer = new THREE.WebGLRenderer({ 
+                antialias: true, 
+                // powerPreference: 'high-performance',
+                precision: 'highp',
+                alpha: true
+            });
+            renderer.setPixelRatio(window.devicePixelRatio);
+            renderer.shadowMap.enabled = true;
+            renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+            RendererManager.instance = renderer;
+        }
+        return RendererManager.instance;
+    }
+}
+
 class ModelPreview {
     constructor(container, modelUrl) {
         this.container = container;
         this.modelUrl = modelUrl;
-        this.scene = new THREE.Scene();
-        this.camera = new THREE.PerspectiveCamera(50, container.clientWidth / container.clientHeight, 0.1, 1000);
+        this.isActive = false;
+        this.initialized = false;
         
-        // 设置渲染器
-        this.renderer = new THREE.WebGLRenderer({ 
-            antialias: true, 
-            powerPreference: 'high-performance',
-            precision: 'highp',
-            alpha: true
-        });
-        this.renderer.setPixelRatio(window.devicePixelRatio); // 适应设备像素比
-        this.renderer.setSize(container.clientWidth, container.clientHeight);
-        this.renderer.setClearColor(0xf0f0f0);
-        this.renderer.shadowMap.enabled = true;
-        this.renderer.shadowMap.type = THREE.PCFSoftShadowMap; // 使用更柔和的阴影
-        
-        container.appendChild(this.renderer.domElement);
+        // 获取共享渲染器
+        this.renderer = RendererManager.getInstance();
+    }
 
+    initialize() {
+        if (this.initialized) return;
+        
+        this.scene = new THREE.Scene();
+        this.camera = new THREE.PerspectiveCamera(50, this.container.clientWidth / this.container.clientHeight, 0.1, 1000);
+        
+        // 调整渲染器尺寸以适应当前容器
+        this.renderer.setSize(this.container.clientWidth, this.container.clientHeight);
+        this.container.appendChild(this.renderer.domElement);
+        
         // 设置相机位置 - 调整为略微俯视的角度
         this.camera.position.set(3, 3, 40); // 增加y轴高度，减小z轴距离
         this.camera.lookAt(0, 0, 0); // 视点对准原点
@@ -70,33 +90,56 @@ class ModelPreview {
         this.mixer = null;
         this.clock = new THREE.Clock();
 
-        // 加载模型
+        this.initialized = true;
         this.loadModel();
-
-        // 开始动画循环
         this.animate();
+    }
+
+    cleanup() {
+        if (!this.initialized) return;
+        
+        this.isActive = false;
+        
+        // 只清理场景和相机，保留渲染器
+        this.scene.traverse(object => {
+            if (object.geometry) object.geometry.dispose();
+            if (object.material) {
+                if (Array.isArray(object.material)) {
+                    object.material.forEach(material => material.dispose());
+                } else {
+                    object.material.dispose();
+                }
+            }
+        });
+        
+        // 移除渲染器的 DOM 元素（但不销毁渲染器）
+        if (this.renderer.domElement.parentElement === this.container) {
+            this.container.removeChild(this.renderer.domElement);
+        }
+        
+        this.initialized = false;
     }
 
     loadModel() {
         const loader = new THREE.FBXLoader();
         loader.load(this.modelUrl, (fbx) => {
-            // 提高模型质量
-            fbx.traverse((child) => {
-                if (child.isMesh) {
-                    child.castShadow = true;
-                    child.receiveShadow = true;
-                    // 如果需要，可以提高材质质量
-                    if (child.material) {
-                        child.material.side = THREE.DoubleSide;
-                        child.material.needsUpdate = true;
-                    }
-                }
-            });
+            // // 提高模型质量
+            // fbx.traverse((child) => {
+            //     if (child.isMesh) {
+            //         child.castShadow = true;
+            //         child.receiveShadow = true;
+            //         // 如果需要，可以提高材质质量
+            //         if (child.material) {
+            //             child.material.side = THREE.DoubleSide;
+            //             child.material.needsUpdate = true;
+            //         }
+            //     }
+            // });
             
             // 调整模型大小和位置
             fbx.scale.setScalar(0.03)
             
-            // 计算包围盒
+            // // 计算包围盒
             const box = new THREE.Box3().setFromObject(fbx);
             const center = box.getCenter(new THREE.Vector3());
             
@@ -138,15 +181,15 @@ class ModelPreview {
     }
 }
 
-// 加载模型列表并创建预览
+// 修改事件处理
 fetch('files.json')
     .then(response => response.json())
     .then(data => {
         const container = document.getElementById('previewContainer');
+        let currentActivePreview = null;
         
         data.forEach(file => {
-            if (file.thumbnail) return
-            // 创建预览容器
+            if (file.thumbnail) return;
             const previewItem = document.createElement('div');
             previewItem.className = 'preview-item';
             
@@ -165,14 +208,32 @@ fetch('files.json')
             downloadBtn.onclick = () => {
                 if (modelPreview) {
                     modelPreview.saveImage();
+                    // 添加下载标记
+                    downloadBtn.classList.add('downloaded');
+                    downloadBtn.textContent = '已下载';
                 }
             };
 
             previewItem.appendChild(title);
             previewItem.appendChild(downloadBtn);
-            container.appendChild(previewItem);
-            
-            // 创建预览
+
+            // 初始化预览
             modelPreview = new ModelPreview(previewItem, file.path);
+
+            // 鼠标进入时激活预览
+            previewItem.addEventListener('mouseenter', () => {
+                // 清理当前活动的预览
+                if (currentActivePreview && currentActivePreview !== modelPreview) {
+                    currentActivePreview.cleanup();
+                }
+                
+                if (!modelPreview.initialized) {
+                    modelPreview.initialize();
+                }
+                modelPreview.isActive = true;
+                currentActivePreview = modelPreview;
+            });
+
+            container.appendChild(previewItem);
         });
     }); 
